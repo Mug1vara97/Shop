@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your name"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/bruh" />
+
+    <RelativeLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:text="Select item"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="403dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="275dp"
+            android:layout_height="163dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="74dp"
+            android:src="@drawable/zxc" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="152dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="235dp"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/count_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/minus_button"
+                android:layout_width="54dp"
+                android:layout_height="62dp"
+                android:layout_alignParentStart="true"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/plus_button"
+                android:layout_width="54dp"
+                android:layout_height="62dp"
+                android:layout_alignParentEnd="true"
+                android:text="+"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="23dp"
+            android:text="0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewNumber1"
+            android:layout_width="138dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:text="Order Price"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Add to cart"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
